@@ -3,7 +3,7 @@ defmodule AirbrakePlug.Mixfile do
 
   def project do
     [app: :airbrake_plug,
-     version: "0.1.0",
+     version: "0.1.1",
      elixir: "~> 1.0",
      package: package,
      description: """
@@ -15,7 +15,7 @@ defmodule AirbrakePlug.Mixfile do
   def package do
     [contributors: ["Roman Smirnov"],
      licenses: ["MIT"],
-     links: %{github: "https://github.com/romul/airbrake-plug"}]
+     links: %{github: "https://github.com/romul/airbrake_plug"}]
   end
 
   def application do
