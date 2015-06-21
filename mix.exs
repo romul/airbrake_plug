@@ -15,7 +15,7 @@ defmodule AirbrakePlug.Mixfile do
   def package do
     [contributors: ["Roman Smirnov"],
      licenses: ["MIT"],
-     links: %{github: "https://github.com/romul/airbrake-plug"}]
+     links: %{github: "https://github.com/romul/airbrake_plug"}]
   end
 
   def application do
